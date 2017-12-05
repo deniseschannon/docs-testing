@@ -1,0 +1,16 @@
+name: Rancher Documentation
+description: Documentation for Rancher
+
+baseurl: "/docs" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+permalink: pretty
+
+plugins:
+  - jekyll-redirect-from
